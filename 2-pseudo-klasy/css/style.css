@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+a#link-1:link {
+    color:green;
+}
+
+a:visited {
+    color: red;
+}
+
+a#link-4:hover {
+    background-color: azure;
+}
+
+div.tabela .klient:first-child {
+    background-color: brown;
+}
+
