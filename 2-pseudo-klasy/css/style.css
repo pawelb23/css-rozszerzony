@@ -14,7 +14,23 @@ a#link-4:hover {
     background-color: azure;
 }
 
-div.tabela .klient:first-child {
+div.tabela div.klient:first-child {
+    background-color: rosybrown;
+}
+
+div.tabela :first-child {
     background-color: brown;
+}
+
+div.tabela .klient:last-child {
+    background-color: blanchedalmond;
+}
+
+div.tabela :nth-child(5) {
+    background-color: cornflowerblue
+}
+
+div.tabela :nth-child(4n+5) {
+    background-color:coral;
 }
 
