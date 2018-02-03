@@ -1,0 +1,22 @@
+body {
+    background-color: bisque
+}
+
+div > p#p1::before {
+    content: "przed elementem ";
+    color: red;
+}
+
+#p2::after {
+    content: " za elementem";
+    color: blue;
+}
+
+#p3::first-letter {
+    color: aqua;
+    font-weight: bold;
+}
+    
+#p4::first-line {
+    background-color: yellow
+}
