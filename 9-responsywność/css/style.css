@@ -1,0 +1,31 @@
+body {
+    background-color: aquamarine;
+    font-size: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    font-size: 16px;
+    height: 500px;
+    width: 25%;
+    padding: 50px;
+    float: left;
+    border: 10px solid orange; 
+}
+
+@media (max-width: 750px) {
+    .box {
+        width: 100%;
+        color: red;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1200px) {
+    .box {
+        width: 50%;
+    }
+}
+
